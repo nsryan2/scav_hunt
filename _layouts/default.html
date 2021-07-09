@@ -13,7 +13,37 @@
 </head>
   {% include navbar.html %}
 <body>
-  {{ content }}
+    <div id="one" style="display:none">
+        <p>Coming Soon!</p>
+    </div>
+    <div id="two" style="display:none">
+        {{ content }}
+    </div>
+    <div id="three" style="display:none">
+        <p>Competition Time</p>
+    </div>
+      
 </body>
 {% include footer.html %}
+<script>
+    window.setInterval(function(){
+
+          var current = new Date("July 8, 22:40:00");
+          var expiry  = new Date("July 8, 22:41:00")
+          var expiry2 = new Date("July 8, 22:45:00")
+
+          if(current.getTime()>expiry.getTime()){
+            $('#one').hide();
+            $('#two').show();
+          }
+          else if(current.getTime()>expiry2.getTime()){
+               $('#two').hide();
+               $('#three').show();
+           }
+
+        }, 3000);
+
+        $('#one').show(); 
+    </script>
+    
 </html>

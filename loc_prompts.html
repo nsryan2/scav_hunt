@@ -35,6 +35,15 @@ title: Location Based Prompts
         }
     </style>
 </head>
+<div id="one" style="display:none">
+    <p>Coming Soon!</p>
+</div>
+<div id="two" style="display:none">
+    <p>content for div #two</p>
+</div>
+<div id="three" style="display:none">
+    <p>Competition Time</p>
+</div>
 
 <div class="content">
   <hr>
@@ -166,3 +175,23 @@ title: Location Based Prompts
     </p>
     
 </div>
+<script>
+    window.setInterval(function(){
+
+      var current = new Date("July 8, 22:46:00");
+      var expiry  = new Date("July 8, 22:41:00")
+      var expiry2 = new Date("July 8, 22:45:00")
+
+      if(current.getTime()>expiry.getTime()){
+        $('#one').hide();
+        $('#two').show();
+      }
+      else if(current.getTime()>expiry2.getTime()){
+           $('#two').hide();
+           $('#three').show();
+       }
+
+    }, 3000);
+
+    $('#one').show(); 
+</script>

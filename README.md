@@ -23,13 +23,13 @@ but I promise it's worth it. It might look like a lot of front-end work, but
 it will change your life!
 
 ### All the Github You'll Need for Simple Edits
-* Create a (github)[https://github.com/login]
+* Create a [github](https://github.com/login)
 * Open you command line/prompt
-* Set up (SSH)[https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh]
+* Set up [SSH](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 * Navigate to a directory you want to work in 
 * Check that you have git installed (you probably do), `git --version` should do the trick
 * Copy and paste `git clone git@github.com:nsryan2/scav_hunt.git` into your command line
-* (Install jekyll)[https://jekyllrb.com/docs/installation/], (Ruby)[https://www.ruby-lang.org/en/documentation/installation/], and (Jekyll Scholar)[https://github.com/inukshuk/jekyll-scholar#installation]
+* [Install jekyll](https://jekyllrb.com/docs/installation/), [Ruby](https://www.ruby-lang.org/en/documentation/installation/), and [Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar#installation)
 * Navigate inside, and then put `gem install bundler` into the command line 
 * Then try running `jekyll serve` (this will give you a link to access the site locally)
 * If you run into problems, try running `bundle exec jekyll serve`

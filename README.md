@@ -52,6 +52,6 @@ looking words you'll be fine.
 * Type `git add -u`
 * Type `git commit -m "Put a comment between these quotation marks about what you did to the repo, very important!"`
 * Type `git push git@github.com:nsryan2/scav_hunt.git develop:develop`
-
+*Note that this etiquette will get you cut in a computation lab, or on a project, but it's good enough for this purpose*
 
 

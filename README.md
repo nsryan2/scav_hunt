@@ -60,4 +60,4 @@ If you want to add another page or feature, the above instructions will not work
 need to add each of the new files you create to the stage before you commit, I'd suggest you
 read more into git before attempting one of these. Also, feel free to reach out to me with any questions.
 You can also `@nsryan2` me in an issue or a comment. This will send me an email, and I'll check out what
-you're trying to do.
+you're doing.

@@ -22,6 +22,20 @@ If you're unfamiliar with github, there is a bit of a threshold to entry,
 but I promise it's worth it. It might look like a lot of front-end work, but
 it will change your life!
 
+### Viewing Local Changes
+This repo is equipped with jekyll capabilities, so you can fork and 
+clone this repo like any other and when you're ready to see the
+changes locally you can put:
+`jekyll serve`
+into the command line and it should pop right up.
+If it doesn't, check the gemfile and make sure everything is 
+installed.
+
+### Non-breaking Changes
+If you're unfamiliar with html or css don't worry, they're super 
+straightforward. Similar to LaTEX, if you just edit the normal 
+looking words you'll be fine.
+
 ### All the Github You'll Need for Simple Edits
 * Create a [github](https://github.com/login)
 * Open you command line/prompt
@@ -39,17 +53,5 @@ it will change your life!
 * Type `git commit -m "Put a comment between these quotation marks about what you did to the repo, very important!"`
 * Type `git push git@github.com:nsryan2/scav_hunt.git develop:develop`
 
-### Viewing Local Changes
-This repo is equipped with jekyll capabilities, so you can fork and 
-clone this repo like any other and when you're ready to see the
-changes locally you can put:
-`jekyll serve`
-into the command line and it should pop right up.
-If it doesn't, check the gemfile and make sure everything is 
-installed.
 
-### Non-breaking Changes
-If you're unfamiliar with html or css don't worry, they're super 
-straightforward. Similar to LaTEX, if you just edit the normal 
-looking words you'll be fine.
 

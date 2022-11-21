@@ -1,6 +1,5 @@
 ## Phys Welcome Week Scavenger Hunt
 This repo was created by Nathan R. for the Phys Dept Scavenger Hunt.
-It is currently formatted for the 2022 set up.
 
 ### Organizing
 Everything should be good to go, pretty much as is for the site.
